@@ -13,6 +13,8 @@ The Conversational ChatBot allows users to interactively ask legal questions, re
 
 ## GitHub Repository
 
+https://github.com/Kalisa21/Mission-capstone---legalEase.git 
+
 
 ## Project Structure
 ```
