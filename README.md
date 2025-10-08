@@ -103,8 +103,7 @@ The legalEase web platform will be deployed on [Render](https://render.com) for 
 1. Exposing FastAPI endpoints for the predictive model.
 2. Using Swagger UI to demonstrate predictions.
 3. Integrating the Conversational ChatBot for interactive guidance and explanations in the near future.
-4. Expanding the platform to a complete web interface for patient input and prediction results display.
-
+   
 ## Video Demo
 
 https://www.youtube.com/watch?v=VXu_q63PeAI 
@@ -113,8 +112,8 @@ The demo highlights:
 
 * Running the FastAPI server
 * Accessing the Swagger UI
-* Making predictions with sample patient data
-* Displaying predicted risk and confidence
+* model training
+* notebook exploration
 
 ## Notes
 
