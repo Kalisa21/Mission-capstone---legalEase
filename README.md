@@ -74,13 +74,13 @@ http://127.0.0.1:8000/docs
 ## API Endpoints
 
 * `GET /` – Returns a success message if the API is running.
-* `POST /predict` – Accepts patient data in JSON format and returns predicted pregnancy risk with probability and confidence score.
+* `POST /query` – Accepts citizen query in string format and returns the related articles.
 
 ### Example JSON for `/query`:
 
 ```json
 {
-  "query": "my husband is living with his concubin"
+  "query": "my husband is living with his concubine"
 }
 ```
 
