@@ -107,7 +107,7 @@ The legalEase web platform will be deployed on [Render](https://render.com) for 
 
 ## Video Demo
 
-[Click to Watch the Demo Video](https://www.youtube.com/watch?v=eSwuXgh3sZM)
+https://www.youtube.com/watch?v=VXu_q63PeAI 
 
 The demo highlights:
 
