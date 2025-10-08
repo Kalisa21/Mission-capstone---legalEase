@@ -1,9 +1,11 @@
 # legalEase
 
 ## Description
-Legal Chatbot A chatbot for Rwandan legal knowledge in English, French, and Kinyarwanda using Sentence Transformers and FAISS.
+LegalEase A chatbot for Rwandan legal knowledge in English, French, and Kinyarwanda using Sentence Transformers and FAISS.
 
-Description legalEase is a web platform designed to support rwandans and foreigner living in rwanda in accessing Rwandan penal code articles by equiping them with legal knowledge. It combines multilingual semantic search and an intelligent ChatBot to provide instant access to legal information.
+Description 
+
+legalEase is a web platform designed to support rwandans and foreigner living in rwanda in accessing Rwandan penal code articles by equiping them with legal knowledge. It combines multilingual semantic search and an intelligent ChatBot to provide instant access to legal information.
 
 The search component uses a fine-tuned multilingual Sentence Transformer model to analyze legal queries in English, French, or Kinyarwanda and find the most relevant legal articles. The system employs FAISS for efficient similarity matching and includes intent recognition to handle greetings, legal queries, and out-of-domain questions.
 
@@ -15,16 +17,16 @@ The Conversational ChatBot allows users to interactively ask legal questions, re
 ## Project Structure
 ```
 
-wombguard_capstone_project/
+mission-capstone---legalEase/
 │── Data/
 │   ├── penal_sheet1.csv          
-│   ├── local_pregnancy_dataset.csv
+│
 ├─ README.md
 ├─ requirements.txt
-├─ shap_analysis_insights.json
+├─ multilingual_article_info.pkl
 ├─ main.py
-├─ wombguard_pregnancy_model.pkl
-└─ wombguard_predictive_models.ipynb
+├─ fine-tuned-multilingual-legal-model
+└─ legalEase.ipynb
 
 ````
 
@@ -32,7 +34,7 @@ wombguard_capstone_project/
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/legalEase.git
-cd wombguard_capstone_project
+cd legalEase
 ````
 
 2. Create a virtual environment and activate it:
