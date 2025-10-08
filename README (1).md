@@ -92,7 +92,7 @@ http://127.0.0.1:8000/docs
 
 ## Deployment Plan
 
-The WombGuard web platform will be deployed on [Render](https://render.com) for public access. Deployment includes:
+The legalEase web platform will be deployed on [Render](https://render.com) for public access. Deployment includes:
 
 1. Exposing FastAPI endpoints for the predictive model.
 2. Using Swagger UI to demonstrate predictions.
