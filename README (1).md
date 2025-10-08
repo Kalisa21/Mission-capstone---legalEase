@@ -1,14 +1,16 @@
-# WombGuard
+# legalEase
 
 ## Description
-WombGuard is a web platform designed to support healthcare providers and patients in assessing pregnancy risk levels. It combines **predictive analytics** and a **Conversational ChatBot** to provide personalized guidance.  
+Legal Chatbot A chatbot for Rwandan legal knowledge in English, French, and Kinyarwanda using Sentence Transformers and FAISS.
 
-The predictive component uses a trained Random Forest machine learning model to analyze patient data, including age, blood pressure, blood sugar, body temperature, BMI, and heart rate—to predict pregnancy risk as either low or high. Predictions include probability scores and confidence levels, giving users clear and actionable insights.  
+Description legalEase is a web platform designed to support rwandans and foreigner living in rwanda in accessing Rwandan penal code articles by equiping them with legal knowledge. It combines multilingual semantic search and an intelligent ChatBot to provide instant access to legal information.
 
-The Conversational ChatBot, which is planned for future development and integration, will allow users to interactively ask questions, receive explanations for predictions, and obtain personalized guidance. This combination of predictive modeling and conversational AI will make the platform both informative and user-friendly, enabling more accessible healthcare support.  
+The search component uses a fine-tuned multilingual Sentence Transformer model to analyze legal queries in English, French, or Kinyarwanda and find the most relevant legal articles. The system employs FAISS for efficient similarity matching and includes intent recognition to handle greetings, legal queries, and out-of-domain questions.
+
+The Conversational ChatBot allows users to interactively ask legal questions, receive relevant article matches with similarity scores, and obtain multilingual legal guidance. This combination of semantic search and conversational chatbot makes legal information more accessible and user-friendly across different languages.  
 
 ## GitHub Repository
-[https://github.com/wombguard_capstone_project](https://github.com/g-tumwesigye/wombguard_capstone_project)
+
 
 ## Project Structure
 ```
@@ -29,7 +31,7 @@ wombguard_capstone_project/
 ## Environment Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/wombguard_capstone_project.git
+git clone https://github.com/yourusername/legalEase.git
 cd wombguard_capstone_project
 ````
 
