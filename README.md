@@ -76,19 +76,11 @@ http://127.0.0.1:8000/docs
 * `GET /` – Returns a success message if the API is running.
 * `POST /predict` – Accepts patient data in JSON format and returns predicted pregnancy risk with probability and confidence score.
 
-### Example JSON for `/predict`:
+### Example JSON for `/query`:
 
 ```json
 {
-  "features": {
-    "Age": 28,
-    "Systolic_BP": 118,
-    "Diastolic": 78,
-    "BS": 4.5,
-    "Body_Temp": 36.8,
-    "BMI": 23.5,
-    "Heart_Rate": 80
-  }
+  "query": "my husband is living with his concubin"
 }
 ```
 
