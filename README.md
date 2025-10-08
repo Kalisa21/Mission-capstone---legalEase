@@ -32,12 +32,12 @@ mission-capstone---legalEase/
 
 scores 
 
-| Query Language | Top-1 Accuracy | Top-5 Accuracy | Precision@5 | Recall@5 | F1-score@5 |
+| Query Language | Accuracy       | Accuracy       | Precision   | Recall   | F1-score   |
 | -------------- | -------------- | -------------- | ----------- | -------- | ---------- |
 | English        | 0.87           | 0.95           | 0.92        | 0.89     | 0.905      |
-| French         | 0.84           | 0.93           | 0.91        | 0.87     | 0.89       |
-| Kinyarwanda    | 0.80           | 0.90           | 0.88        | 0.85     | 0.865      |
-| **Overall**    | 0.84           | 0.93           | 0.90        | 0.87     | 0.887      |
+| French         | 0.54           | 0.53           | 0.51        | 0.57     | 0.59       |
+| Kinyarwanda    | 0.40           | 0.40           | 0.48        | 0.45     | 0.465      |
+
 
 ## Environment Setup
 1. Clone the repository:
