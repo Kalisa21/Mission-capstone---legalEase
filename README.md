@@ -30,6 +30,9 @@ mission-capstone---legalEase/
 
 ````
 
+<img width="577" height="467" alt="image" src="https://github.com/user-attachments/assets/39d7e0d2-4d60-4124-9ea9-79b7bbccbc55" />
+
+
 scores 
 
 | Query Language | Accuracy       | Accuracy       | Precision   | Recall   | F1-score   |
