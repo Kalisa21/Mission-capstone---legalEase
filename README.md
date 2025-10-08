@@ -30,6 +30,15 @@ mission-capstone---legalEase/
 
 ````
 
+scores 
+
+| Query Language | Top-1 Accuracy | Top-5 Accuracy | Precision@5 | Recall@5 | F1-score@5 |
+| -------------- | -------------- | -------------- | ----------- | -------- | ---------- |
+| English        | 0.87           | 0.95           | 0.92        | 0.89     | 0.905      |
+| French         | 0.84           | 0.93           | 0.91        | 0.87     | 0.89       |
+| Kinyarwanda    | 0.80           | 0.90           | 0.88        | 0.85     | 0.865      |
+| **Overall**    | 0.84           | 0.93           | 0.90        | 0.87     | 0.887      |
+
 ## Environment Setup
 1. Clone the repository:
 ```bash
