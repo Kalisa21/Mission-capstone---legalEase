@@ -14,26 +14,12 @@ The Conversational ChatBot allows users to interactively ask legal questions, re
 rwanda-legal-ai-assistant/
 │
 ├── main.py
-│   └── FastAPI application entry point that exposes the REST API endpoints
-│
 ├── enhanced_chatbot.py
-│   └── Core chatbot logic with intent detection, query processing, and response generation
-│
 ├── requirements.txt
-│   └── Python dependencies required to run the application
-│
 ├── run_api.py
-│   └── Script to start the API server in a production environment
-│
 ├── test_api.py
-│   └── Script for testing API routes and verifying chatbot responses
 │
 ├── fine-tuned-multilingual-legal-model/
-│   └── Directory containing the fine-tuned multilingual legal NLP model
-│
 ├── multilingual_legal_articles.index
-│   └── FAISS index file for efficient semantic search across legal articles
-│
 └── multilingual_article_info.pkl
-    └── Pickle file storing article metadata (titles, languages, references, etc.)
 
